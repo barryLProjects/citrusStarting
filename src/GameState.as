@@ -20,7 +20,7 @@ package
 		override public function initialize():void
 		{
 			super.initialize();
-			var physics:Box2D=new Box2D("box2d");
+			var physics=new Box2D("box2d");
 			physics.visible=true;
 			add(physics);
 			

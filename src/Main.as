@@ -5,6 +5,7 @@ package
 	import flash.events.Event;
 	
 	[SWF(frameRate="60",width="1024",height="768",backgroundColor="")]
+
 	public class Main extends StarlingCitrusEngine
 	{
 		public function Main()
@@ -16,7 +17,7 @@ package
 			setUpStarling(true);
 		}
 		override public function handleStarlingReady():void {
-			state = new GameState();
+			state = new GameState2();
 		}
 	}
 }
